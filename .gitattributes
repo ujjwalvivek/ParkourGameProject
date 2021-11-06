@@ -126,3 +126,14 @@
 *.gz lfs
 *.rar lfs
 *.tar lfs
+
+# Auto detect text files and perform LF normalization
+* text=auto
+Assets/_Multiplayer/Assets/Mirror/** linguist-vendored
+Assets/_Multiplayer/Assets/ParrelSync/** linguist-vendored
+*.shader linguist-language=C#
+*.hlsl linguist-language=C#
+"ParkourProject/Assets/TextMesh Pro/Shaders/*.cginc" linguist-language=C#
+
+# Third-party Photon SDK
+ParkourProject/Assets/Photon/** linguist-vendored
